@@ -1,6 +1,13 @@
 .center {
   text-align: center;
 }
+@media (max-width: 700px) {
+  #about{
+    font-size: 10pt;
+    text-align: justify;
+    margin: auto;
+  }
+}
 
 body {
  margin-top: 0px;
@@ -69,14 +76,13 @@ h1 {
 #TabA a:hover{
   background-color: #555;
 }
+
 #about{
   font-size: 10pt;
   text-align: justify;
   margin: auto;
   max-width: 500px;
-  word-wrap: normal;
 }
-
 .footer {
     position: fixed;
     bottom: 0;
