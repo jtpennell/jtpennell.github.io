@@ -1,0 +1,86 @@
+.center {
+  text-align: center;
+}
+
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px;
+ font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: "white";
+}
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #d9d9d9;
+}
+.projects ul {
+    list-style-type: none;
+    width: 70%;
+    margin: auto;
+    padding: 0;
+    width: 350px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.projects li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.projects li a:hover {
+    background-color: #555;
+    color: white;
+}
+h1 {
+  text-align: center;
+  padding: 2%;
+}
+
+#TabA {
+    background-color: #555;
+}
+
+#TabA a{
+  color: white;
+}
+#TabA a:hover{
+  background-color: #555;
+}
+#about{
+  font-size: 10pt;
+  text-align: justify;
+  margin: auto;
+  width: 500px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    text-align:center;
+}
