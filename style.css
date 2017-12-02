@@ -1,13 +1,6 @@
 .center {
   text-align: center;
 }
-@media (max-width: 700px) {
-  #about{
-    font-size: 10pt;
-    text-align: justify;
-    margin: auto;
-  }
-}
 
 body {
  margin-top: 0px;
@@ -92,4 +85,11 @@ h1 {
     text-align: center;
     width: 100%;
     background-color: white;
+}
+@media (max-width: 700px) {
+  #about{
+    font-size: 10pt;
+    text-align: justify;
+    margin: auto;
+  }
 }
