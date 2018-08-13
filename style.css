@@ -11,7 +11,7 @@ body {
 }
 
 .nav {
-  text-align: center;
+  text-align: center
 }
 
 .nav ul {
@@ -100,8 +100,9 @@ h1 {
 
 }
 @media (max-width: 700px) {
-  .nav {
-    font-size: 12pt;
+  .nav li a{
+    padding: 7px 8px;
+    font-size: 10pt;
   }
 
   #about{
