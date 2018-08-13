@@ -8,7 +8,6 @@ body {
  margin-bottom: 0px;
  margin-left: 0px;
  font-family: 'Quicksand', sans-serif;
-
 }
 
 .nav {
@@ -39,7 +38,10 @@ body {
 }
 
 .nav li a:hover {
-    background-color: #d9d9d9;
+    outline-color: black;
+    outline-width: 2px;
+    color: black;
+    outline-style: solid;
 }
 
 .projects {
@@ -98,6 +100,10 @@ h1 {
 
 }
 @media (max-width: 700px) {
+  .nav {
+    font-size: 12pt;
+  }
+
   #about{
     font-size: 10pt;
     text-align: justify;
