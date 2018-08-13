@@ -99,42 +99,15 @@ h1 {
     background-color: transparent;
 
 }
-@media (max-width: 700px) {
-
-  .nav {
-    text-align: center
-  }
+@media only screen and (max-width: 700px) {
 
   .nav ul {
-      display: inline-block;
-      list-style-type: none;
-      margin: 0;
-      padding: 15px;
-      overflow: hidden;
-      background-color: "white";
+    display: list-item;
   }
+
   .nav li {
-      padding: 7px;
+      float:none;
   }
-
-  .nav li a {
-      font-size: 11px;
-      outline-color: black;
-      outline-width: 1px;
-      display: block;
-      color: black;
-      text-align: center;
-      padding: 7px 8px;
-      text-decoration: none;
-  }
-
-  .nav li a:hover {
-      outline-color: black;
-      outline-width: 2px;
-      color: black;
-      outline-style: solid;
-  }
-
 
   #about{
     font-size: 10pt;
