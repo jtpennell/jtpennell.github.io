@@ -1,0 +1,233 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    background-color: #003366 !important;
+    color: #003366 !important;
+    height: 1px !important;
+    width: 90% !important;
+    margin-right: 10% !important;
+
+}
+
+p {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+div.sidebar ul{
+  margin-top:30%;
+  list-style: none;
+  margin-left:-30%;
+}
+
+div.sidebar ul li:hover{
+  background-color: #001a33;
+}
+
+div.sidebar ul li a{
+  font-size: 16px;
+  color:white;
+  display:block;
+  height:auto;
+  text-decoration: none;
+  padding: 1em 0em;
+}
+
+div.sidebar ul li a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar {
+  text-align:center;
+  width:150px;
+  height:100%;
+  display: block;
+  position:absolute;
+  left:0px;
+  top:0px;
+  background: #003366;
+}
+
+#current{
+  border:2px !important;
+  border-color:white !important;
+}
+
+#page {
+  padding-left: 190px;
+  color: #003366;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+.smallList {
+    position:absolute;
+    width:250px;
+    height:85%;
+    left: 12%;
+    top: 12%;
+    display: block;
+    text-align: left;
+    border: 2px solid #005580;
+
+
+}
+
+div.smallList ul{
+  list-style: none;
+  margin-left:-40px;
+}
+
+.smallList li.active{
+  text-indent: 1em;
+}
+
+.smallList a.active{
+    background-color: #001a33;
+    pointer-events: none;
+    color: white;
+}
+
+.smallList ul li a{
+  font-size: 13pt;
+  display:block;
+  padding:1em 0em;
+  text-decoration:none;
+  color: #003366;
+  left:-80px;
+}
+
+.smallList a:hover{
+    text-decoration:none;
+    background-color: #e0ebeb;
+    color: #001a33;
+}
+
+
+
+.sidebar li.active {
+  background-color:#001a33;
+
+}
+
+#centered{
+  text-align:center;
+  color: #003366;
+}
+
+#james{
+  text-align:center;
+  color: #003366;
+}
+
+#saq{
+  text-align:center;
+  color: #003366;
+}
+#mcq{
+  text-align:center;
+  color: #003366;
+}
+#otherPage {
+  position:absolute;
+}
+
+
+
+#biceps{
+  position: absolute;
+  display:none;
+  left: 30%;
+  top: 11%;
+  width: 50%;
+  height: 85%;
+}
+
+
+#biceps p{
+  font-size: 12pt;
+  margin-right: 2%;
+  text-align: justify;
+  font-family: verdana;
+}
+
+#body{
+  display: block;
+  position: absolute;
+  left: 35%;
+  top: 15%;
+
+}
+
+#message {
+  display: none;
+}
+
+#message form{
+  left: 30%;
+  top: 20%;
+  width: 50%;
+  height: 50%;
+  border: 2px solid #005580;
+  position: absolute;
+  padding-top: 23%;
+  padding-left: 1%;
+}
+
+#message h1{
+  position: absolute;
+  top:11%;
+  left: 30%;
+}
+
+#comment{
+  font-size: 16pt;
+  padding: 0.5%;
+  width: 22%;
+  height: 5%;
+  background-color: #6692cc;
+  color: white;
+  position:absolute;
+  left: 31%;
+  top: 22%;
+  border-radius: 12px;
+}
+
+#review{
+  display: none;
+  width:45%;
+  position:absolute;
+  left:30%;
+  top:11%;
+  text-align: justify;
+}
+
+#replybox{
+  width:100%;
+  height:30px;
+}
+
+#multichoice{
+  display: none;
+  position:absolute;
+  left:30%;
+  top:11%
+}
+
+#shortanswer{
+  display: none;
+  position: absolute;
+  left:30%;
+  top:11%;
+}
+
+#topic1{
+  display:none;
+}
+#topic2{
+  display:none;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Problems</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="plugin.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="sidebar">
+    <h3 style="padding-top:2%;color:white;"><a style="text-decoration:none;color:white;" href="index.html">Strength101</a></h3>
+    <ul>
+      <li>
+        <a href="index.html" class=""><span  class="glyphicon glyphicon-home" style="font-size:50px"></span><br>Home</a>
+      </li>
+      <li class=active>
+        <a href="questions.html" class=""><span  class="glyphicon glyphicon-ok" style="font-size:50px"></span><br>Problems</a>
+      </li>
+      <li id="">
+        <a href="peer.html" class=""><span  class="glyphicon glyphicon-bullhorn" style="font-size:50px"></span><br>Peer Feedback</a>
+      </li>
+      <li id="">
+        <a href="messages.html" class=""><span  class="glyphicon glyphicon-comment" style="font-size:50px"></span><br>Messages</a>
+      </li>
+      <li id="">
+        <a href="#" class=""><span class="glyphicon glyphicon-cog" style="font-size:50px"></span><br>Settings</a>
+      </li>
+    </ul>
+  </div>
+
+  <div id=page>
+    <h2>Problems<h2>
+    <hr>
+  </div>
+
+<div id=questionsList>
+  <div class="smallList">
+    <ul>
+  <li class=active><a class=active>Questions</a></li>
+  <li id=centered onclick="showTopics1()"><a>Multichoice</a></li>
+  <li id=centered onclick="showTopics2()"><a>Short Answer</a></li>
+</ul>
+  </div>
+</div>
+
+<div id=topic1>
+  <div class="smallList">
+    <ul>
+  <li class=active><a class=active>Topics</a></li>
+  <li id=mcq onclick="showMcq()"><a>Biceps</a></li>
+  <li id=centered><a href="#">Deltoids</a></li>
+  <li id=centered><a href="#">Hamstrings</a></li>
+  <li id=centered><a href="#">Pectorials</a></li>
+  <li id=centered><a href="#">Quadriceps</a></li>
+  <li id=centered><a href="#">Triceps</a></li>
+</ul>
+  </div>
+</div>
+
+<div id=topic2>
+  <div class="smallList">
+    <ul>
+  <li class=active><a class=active>Topics</a></li>
+  <li id=saq onclick="showSaq()"><a>Biceps</a></li>
+  <li id=centered><a href="#">Deltoids</a></li>
+  <li id=centered><a href="#">Hamstrings</a></li>
+  <li id=centered><a href="#">Pectorials</a></li>
+  <li id=centered><a href="#">Quadriceps</a></li>
+  <li id=centered><a href="#">Triceps</a></li>
+</ul>
+  </div>
+</div>
+
+
+  <div id=multichoice>
+    <h1>Multichoice: Biceps</h1>
+    <p>Where are the biceps are found on the human body?</p>
+    <form>
+      <input type="radio" name="answer" value="a"> Legs<br>
+      <input type="radio" name="answer" value="b"> Feet<br>
+      <input type="radio" name="answer" value="c"> Arms<br>
+      <input type="radio" name="answer" value="d"> Head<br><br>
+      <input type="submit">
+    </form>
+  </div>
+
+  <div class=smallList style="display:none">
+    <ul>
+    <li class=active><a class=active>Topics</a></li>
+    <li id=centered><a>Upper Body</a></li>
+    <li id=centered><a href="#">Lower Body</a></li>
+    <li id=centered><a href="#">Arms</a></li>
+    <li id=centered><a href="#">Legs</a></li>
+  </ul>
+  </div>
+
+  <div id=shortanswer>
+    <h1>Short Answer: Biceps</h1>
+    <p>What routine exercises are used to utilise the biceps and how do you perform them?<br>Explain your answer below.
+    </p>
+    <div id=replybox>
+      <textarea rows="4" cols="100" name="comment" form="usrform">
+  </textarea>
+  <div>
+  <button>Submit</button></div>
+    </div>
+  </div>
+
+</html>

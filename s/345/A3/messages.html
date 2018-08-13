@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="plugin.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="sidebar">
+    <h3 style="padding-top:2%;color:white;"><a style="text-decoration:none;color:white;" href="index.html">Strength101</a></h3>
+    <ul>
+      <li>
+        <a href="index.html" class=""><span  class="glyphicon glyphicon-home" style="font-size:50px"></span><br>Home</a>
+      </li>
+      <li id="">
+        <a href="questions.html" class=""><span  class="glyphicon glyphicon-ok" style="font-size:50px"></span><br>Problems</a>
+      </li>
+      <li>
+        <a href="peer.html" class=""><span  class="glyphicon glyphicon-bullhorn" style="font-size:50px"></span><br>Peer Feedback</a>
+      </li>
+      <li class=active>
+        <a href="messages.html" class=""><span  class="glyphicon glyphicon-comment" style="font-size:50px"></span><br>Messages</a>
+      </li>
+      <li id="">
+        <a href="#" class=""><span class="glyphicon glyphicon-cog" style="font-size:50px"></span><br>Settings</a>
+      </li>
+
+    </ul>
+  </div>
+  <div id=page>
+    <h2>Messages<h2>
+    <hr>
+  </div>
+  <div class="smallList">
+    <ul>
+  <li class=active><a class=active>Friends</a></li>
+  <li id=james onclick="showJames()"><a>James</a></li>
+  <li id=centered><a href="#">Adam</a></li>
+  <li id=centered><a href="#">Elyse</a></li>
+  <li id=centered><a href="#">Bruce</a></li>
+</ul>
+  </div>
+
+<div id=message>
+  <h1>James</h1>
+  <div>
+    <div id=comment>Wanna study biceps tomorrow?</div>
+    <form>
+    <input style ="width:92%;" type="text">
+    <input type="submit" value="Send">
+  </form>
+  </div>
+</div>
+
+</html>
