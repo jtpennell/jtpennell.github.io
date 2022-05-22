@@ -1,100 +1,46 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <script type="text/javascript" src="script.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+<h1></h1>
+<!--<div style="position:absolute;left:25%;text-align:center;width:50%">-->
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active" style="padding-left:0px;padding-right:0px"></a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a href="#news" >Home</a>
 
-  <script>
-    window.onload = function() {
-      startup();
-    }
-  </script>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 
-  <div class="nav">
-    <ul>
-      <li id="TabA" onclick="showTabA();"><a id="a" href="#">H O M E</a></li>
-      <li id="TabB" onclick="showTabB();"><a id="b" href="#">P O R T F O L I O</a></li>
-      <li id="TabC" onclick="showTabC();"><a id="c" href="#">C O N T A C T</a></li>
-      <li id="TabD" onclick="showTabD();"><a id="d" href="#">A B O U T</a></li>
-    </ul>
-  </div>
+</div>
+<div style="position:fixed;top:36px;padding-left:16px; color:white">JT Pennell</div>
 
-  <div id="SectionA">
-    <section>
-      <h1>Welcome!</h1>
-      <div id="about">
-      <p>Hello! My name is John Pennell, and I'm a graduate from The University of Auckland. I designed this website to showcase some of the skills I learned during my studies. You can view my CV <a href="./s/cv/cv.pdf" target="_blank" style="text-decoration:none">here</a>.</p>
-      </div>
-    </section>
-  </div>
+<div style="padding-left:16px; padding-top:60px; color:white; text-align:center">
+  <p color="white" text-aligh="center">Lets get down to the nitty gritty.</p>
+</div>
 
-  <div id="SectionB">
-    <section>
-      <h1 style="text-align:center; padding-bottom: 2%">Some of my work</h1>
-      <h4 class="center">Human Computer Interaction</h4>
-        <div class="projects">
-      <ul>
-        <li><a target="_blank" href="./s/345/A1/345_A1.pdf">Usability Evaluation</a></li>
-        <li><a target="_blank" href="./s/345/A2/345_A2.pdf">Low-Fidelity Design Group Project</a></li>
-		    <li><a target="_blank" href="https://www.youtube.com/watch?v=bdJMJHpHjOQ">Low-Fidelity Design Video</a></li>
-        <li><a target="_blank" href="./s/345/A3/345_A3.pdf">Realizing a Design</a></li>
-        <li><a target="_blank" href="./s/345/A3/index.html">Realizing a Design Website</a></li>
-      </ul>
-    </div>
-    <h4 class="center">Mathematical Foundations of Computer Science</h4>
-    <div class="projects">
-      <ul>
-        <li><a target="_blank" href="./s/350/Assignment1">Automata and Pattern Matching</a></li>
-        <li><a target="_blank" href="./s/350/Assignment2">Turing Machines</a></li>
-        <li><a target="_blank" href="./s/350/Assignment3">Quantum Computing and  Complexity</a></li>
-      </ul>
-    </div>
-    <h4 class="center">Computational Science</h4>
-    <div class="projects">
-      <ul>
-        <li><a target="_blank" href="./s/369/a1.html">SVD Based Data Compression</a></li>
-      </ul>
-    </div>
-    <h4 class="center">Distributed Objects, Services and Programming</h4>
-    <div class="projects">
-      <ul>
-        <li><a target="_blank" href="./s/335/jpen854.html">Web Application Development</a></li>
-      </ul>
-    </div>
-    </section>
-  </div>
+<hr style="width:80%;margin-top:40px;border: 0.5px solid #FFF48D">
 
-  <div id="SectionC">
-    <section>
-    <h1 style="text-align: center; padding-left:0;">Contact Details</h1>
-    <div style="text-align: center; font-size:12pt">
-      <p>Email: johnt.pennell@gmail.com</p>
-      <p>Phone: +6421 121 2243</p>
-    </div>
-  </section>
-  </div>
+<dir style="margin:auto;width:75%">
+<div class="box1">
+  <p>STACK</p>
+  PYTHON, C# .NET, XAMARIN, SQL, HTML/CSS, JAVASCRIPT, AZURE/AWS, VISUAL STUDIO, SVN/GIT
+</div>
 
-  <div id="SectionD">
-    <section>
-      <h1>About myself</h1>
-      <div class="center">
-     <p id="about"> With a Bachelor's degree in Computer Science from The University of Auckland, I aspire to hone my skills in the multiple languages I've studied over the years. I enjoy being challenged and hope to engage in projects that require me to work outside my comfort and knowledge set.  As I continue to learn and develop my skills, I believe that I can be an asset to your organization. If you have any questions please feel free to contact me.</p>
-   </div>
-    </section>
-  </div>
+<div class="box2">
+  <p>SKILLS</p>
+WEB DEVELOPMENT, ANDROID DEVELOPMENT, DATABASE SYSTEMS, SCRIPTING AND PROJECT MANAGEMENT
+</div>
+</div>
 
-<div style="padding-bottom:150px"></div>
-
-<div class="footer">
-  <footer>
-    <p><a href="https://github.com/jtpennell" style="text-decoration:none">Github</a></p>
-  </footer>
+<script src="script.js"></script>
 </div>
 </body>
-
 </html>
