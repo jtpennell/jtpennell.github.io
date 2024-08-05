@@ -1,0 +1,82 @@
+/* portfolio.module.css */
+
+.min-h-screen {
+    min-height: 100vh;
+    font-family: "Suisse Intl Bold", "Suisse Intl Bold Placeholder", sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1.5rem;
+  }
+  
+  .headerIcons {
+    display: flex;
+    padding: 1rem;
+  }
+  
+  .mailIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+    padding: 1.5rem;
+  }
+  
+  .mainTitle {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .mainSubtitle {
+    font-size: 1.875rem;
+    font-weight: 600;
+  }
+  
+  .mainDescription {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+  }
+  
+  .section {
+    padding: 1.5rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.875rem;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .cvBtn {
+    margin-top: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .projectsGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .projectsGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
