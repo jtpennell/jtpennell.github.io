@@ -4,3 +4,5 @@ node_modules
 .icloud
 .pack
 .gz
+*.icloud
+.next/cache/webpack/client-development/.1.pack.gz.icloud
